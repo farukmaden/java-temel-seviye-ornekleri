@@ -7,7 +7,7 @@ public class OtobüsProgramı {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please enter the date (HH:MM) --> ");
-		String currentDate = input.next();//şuanki saat 
+		String currentDate = input.next();
 		String[] hourAndMinute = currentDate.split(":");
 		String otobusSaatleri[] = { "12:00", "13:00", "14:00" };
 
